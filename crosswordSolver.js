@@ -11,7 +11,7 @@ const crosswordSolver = (puzzle, words) => {
     if (!validPuzzle(puzzle) || !validWords(words)) {
         return "Error"
     };
-    const grid = emptyPuzzle.split('\n').map(row => row.split(''));
+    const grid = puzzle.split('\n').map(row => row.split(''));
     return grid
 };
 

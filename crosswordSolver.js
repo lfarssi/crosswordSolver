@@ -1,1 +1,1 @@
-import  { validPuzzle, validWords, conditions } from './validinput';
+import validationModule  from './validinput.js';

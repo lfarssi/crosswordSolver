@@ -17,5 +17,5 @@ const validWords = (arr) => {
     );
 };
 
-export default { validPuzzle, validWords, conditions };
 
+export default { validPuzzle, validWords, conditions };
